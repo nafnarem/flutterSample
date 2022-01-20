@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "218315122900",
+    "project_id": "dive-94ff0",
+    "storage_bucket": "dive-94ff0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218315122900:android:ccb8f2e098132be3c8b341",
+        "android_client_info": {
+          "package_name": "com.nafnarem.lockstars_sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218315122900-73a3uchgf99gd9lcvnonpnlk4ll7dt0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqEBgDW_Gd1pSCunDXJGnB-YV8MhNs3JE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218315122900-73a3uchgf99gd9lcvnonpnlk4ll7dt0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
