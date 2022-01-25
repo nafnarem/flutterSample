@@ -4,6 +4,8 @@
         android:label="lockstars_sample"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyB5Zs8Lcg7dv7YXdeT1KZSx__S4QzNeEAc"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
