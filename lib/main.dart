@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
           ),
           debugShowCheckedModeBanner: false,
           // home: const LoginScreen()),
-          home: const PlacesListScreen(),
+          home: const LoginScreen(),
           routes: {
             AddPlaceScreen.routeName: (ctx) => AddPlaceScreen(),
           }),

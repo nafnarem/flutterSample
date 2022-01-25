@@ -52,18 +52,23 @@ class _PlacesListScreenState extends State<PlacesListScreen> {
                                           greatPlaces.items[index].image),
                                     ),
                                     title: Text(greatPlaces.items[index].title),
+                                    subtitle: Text(greatPlaces
+                                        .items[index].location!.address!),
                                     onTap: () {},
                                   )),
                     ),
             ),
           ),
-          FloatingActionButton(
-            onPressed: () async {
-              await auth.signOut();
-              Navigator.pushReplacement(context,
-                  MaterialPageRoute(builder: (context) => LoginScreen()));
-            },
-            child: Icon(Icons.logout),
+          Align(
+            alignment: Alignment.centerRight,
+            child: FloatingActionButton(
+              onPressed: () async {
+                await auth.signOut();
+                Navigator.pushReplacement(context,
+                    MaterialPageRoute(builder: (context) => LoginScreen()));
+              },
+              child: Icon(Icons.logout),
+            ),
           ),
         ]));
   }
