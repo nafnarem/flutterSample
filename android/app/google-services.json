@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "218315122900",
-    "project_id": "dive-94ff0",
-    "storage_bucket": "dive-94ff0.appspot.com"
+    "project_number": "212134226423",
+    "project_id": "lockstarstest",
+    "storage_bucket": "lockstarstest.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:218315122900:android:ccb8f2e098132be3c8b341",
+        "mobilesdk_app_id": "1:212134226423:android:dc797e7b0d77350c87a6f2",
         "android_client_info": {
           "package_name": "com.nafnarem.lockstars_sample"
         }
       },
       "oauth_client": [
         {
-          "client_id": "218315122900-73a3uchgf99gd9lcvnonpnlk4ll7dt0d.apps.googleusercontent.com",
+          "client_id": "212134226423-dvd0ekh3iiere7eh2cqu22rnno0shela.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDqEBgDW_Gd1pSCunDXJGnB-YV8MhNs3JE"
+          "current_key": "AIzaSyDDQ_d050unRDv_-8Vim3lIdOA9cUBUZho"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "218315122900-73a3uchgf99gd9lcvnonpnlk4ll7dt0d.apps.googleusercontent.com",
+              "client_id": "212134226423-dvd0ekh3iiere7eh2cqu22rnno0shela.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

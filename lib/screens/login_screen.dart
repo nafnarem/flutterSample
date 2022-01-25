@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:lockstars_sample/screens/home_screen.dart';
 import 'package:country_code_picker/country_code_picker.dart';
+import 'package:lockstars_sample/screens/places_list_screen.dart';
 
 enum MobileVerificationState {
   showMobileFormState,
@@ -39,7 +39,7 @@ class _LoginScreenState extends State<LoginScreen> {
       });
       if (authCredential.user != null) {
         Navigator.push(context,
-            MaterialPageRoute(builder: (context) => const HomeScreen()));
+            MaterialPageRoute(builder: (context) => const PlacesListScreen()));
       }
     } on FirebaseAuthException catch (e) {
       setState(() {
@@ -131,9 +131,6 @@ class _LoginScreenState extends State<LoginScreen> {
             hintText: "EnterOtp",
           ),
         ),
-      ),
-      const SizedBox(
-        height: 16,
       ),
       TextButton(
         onPressed: () async {
