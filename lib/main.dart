@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:lockstars_sample/providers/great_places.dart';
+import 'package:lockstars_sample/providers/update_users.dart';
 import 'package:lockstars_sample/screens/add_place_screen.dart';
+import 'package:lockstars_sample/screens/add_user.dart';
 import 'package:lockstars_sample/screens/login_screen.dart';
 import 'package:lockstars_sample/screens/places_list_screen.dart';
 import 'package:provider/provider.dart';
@@ -12,6 +14,7 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+
   runApp(MaterialApp(
     title: 'FlutterSample',
     initialRoute: '/',
@@ -36,9 +39,11 @@ class MyApp extends StatelessWidget {
           ),
           debugShowCheckedModeBanner: false,
           // home: const LoginScreen()),
-          home: const LoginScreen(),
+          home: const PlacesListScreen(),
           routes: {
             AddPlaceScreen.routeName: (ctx) => AddPlaceScreen(),
+            AddUser.routeName: (ctx) => AddUser(),
+            UpdateUser.routeName: (ctx) => UpdateUser(),
           }),
     );
   }
